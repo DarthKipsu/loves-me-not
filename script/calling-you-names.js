@@ -17,3 +17,9 @@ function calculate_meaning_of_life(text) {
 
   return fourty_two;
 }
+
+function shower_me_with_flowers() {
+  var amount = 8 + automatically_generate_personalized_destiny();
+
+  createPetals(amount);
+}
