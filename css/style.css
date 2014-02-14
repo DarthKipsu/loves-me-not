@@ -1,3 +1,7 @@
+html {
+	background: url(../images/lovebg.png);
+}
+
 #flower {
 	display: none;
 	position: absolute;
@@ -28,6 +32,7 @@
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   width: 300px;
   padding: 8px 12px 12px;
+  background-color: #F5DCEE;
 }
 
 #calling-you-in-names label {
@@ -42,6 +47,7 @@
   padding: 3px;
   display: block;
   width: 98%;
+  background-color: #F7EDF5;
 }
 
 #calling-you-in-names button {
