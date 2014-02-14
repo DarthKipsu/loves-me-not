@@ -19,6 +19,7 @@
 	left: 50%;
 	margin-left: -47px;
 	top: 200px;
+	z-index: 99;
 }
 
 #calling-you-in-names {
