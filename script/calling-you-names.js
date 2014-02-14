@@ -2,6 +2,9 @@ function automatically_generate_personalized_destiny() {
   var you = document.getElementById('your-name').value;
   var he = document.getElementById('who-you-fancy-most').value;
  
+  if (you == "" || he == "")
+    throw "You have names, don't you?!";
+
   var your_destiny = calculate_meaning_of_life(you);
   var his_fate = calculate_meaning_of_life(he);
 
@@ -19,7 +22,13 @@ function calculate_meaning_of_life(text) {
 }
 
 function shower_me_with_flowers() {
-  var amount = 10 + automatically_generate_personalized_destiny();
+  try {
+    var amount = 10 + automatically_generate_personalized_destiny();
 
-  createPetals(amount);
+    createPetals(amount);
+
+    document.getElementById('calling-you-in-names').style.display = 'none';
+  } catch (e) {
+    document.getElementById('you-dont-have-a-name').style.display = 'block'; 
+  }
 }

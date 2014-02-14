@@ -3,7 +3,7 @@
 	position: absolute;
 	left: 50%;
 	margin-left: -200px;
-	top: 70px;
+	top: 140px;
 	width: 400px;
 }
 
@@ -23,7 +23,41 @@
 
 #calling-you-in-names {
 	margin: auto;
-	width: 1000px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  width: 300px;
+  padding: 8px 12px 12px;
+}
+
+#calling-you-in-names label {
+  display: block;
+  font-weight: bold;
+  margin: 4px 0 0;
+}
+
+#calling-you-in-names input {
+  border: 1px solid #555;
+  box-shadow: 1px 1px 5px #555 inset;
+  padding: 3px;
+  display: block;
+  width: 98%;
+}
+
+#calling-you-in-names button {
+  margin: 9px 6px 0;
+  border: 1px solid black;
+  background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 27%, rgba(71,71,71,1) 39%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 62%, rgba(19,19,19,1) 73%, rgba(28,28,28,1) 85%, rgba(36,36,36,1) 89%, rgba(44,44,44,1) 93%, rgba(43,43,43,1) 95%);
+  color: white;
+  font-weight: bold;
+  width: 97%;
+}
+
+#you-dont-have-a-name {
+  margin: 8px;
+}
+
+#you-dont-have-a-name span {
+  font-weight: bold;
 }
 
 .petals {
