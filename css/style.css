@@ -1,0 +1,17 @@
+#flower {
+	display: none;
+}
+
+#stem {
+	position: absolute;
+	left: 50%;
+	margin-left: -22px;
+	top: 430px;
+}
+
+#pistil {
+	position: absolute;
+	left: 50%;
+	margin-left: -47px;
+	top: 400px;
+}
