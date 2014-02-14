@@ -1,22 +1,35 @@
 #flower {
 	display: none;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 70px;
+	width: 400px;
 }
 
 #stem {
 	position: absolute;
 	left: 50%;
 	margin-left: -22px;
-	top: 430px;
+	top: 230px;
 }
 
 #pistil {
 	position: absolute;
 	left: 50%;
 	margin-left: -47px;
-	top: 400px;
+	top: 200px;
 }
 
 #calling-you-in-names {
 	margin: auto;
 	width: 1000px;
+}
+
+.petals {
+	position: absolute;
+	left: 50%;
+	top: 242px;
+	margin: 20px 0 0 -40px;
+	transform-origin: 50% -5%;
 }

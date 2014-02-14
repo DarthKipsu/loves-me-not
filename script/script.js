@@ -9,4 +9,5 @@ function createPetals(amount) {
 		image.style.transform = 'rotate(' + ( angle * ( i + 1 )) + 'rad)'
 		flower.appendChild(image);
 	};
+	flower.style.display = 'block';
 };

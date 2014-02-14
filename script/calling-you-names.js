@@ -19,7 +19,7 @@ function calculate_meaning_of_life(text) {
 }
 
 function shower_me_with_flowers() {
-  var amount = 8 + automatically_generate_personalized_destiny();
+  var amount = 10 + automatically_generate_personalized_destiny();
 
   createPetals(amount);
 }
