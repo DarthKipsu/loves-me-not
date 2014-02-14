@@ -5,7 +5,18 @@
     <title>Does he love you?</title>
     
     <script src="audio.js"></script>
+    <script src="calling-you-names.js"></script>
   </head>
+
+  <section id="calling-you-in-names">
+    <label for="your-name">Who are you?</label>
+    <input type="text" id="your-name" required>
+
+    <label for="who-you-fancy-most">Who you fancy the mostest?</label>
+    <input type="text" id="who-you-fancy-most" required>
+  </section>
+
+  <button onclick="alert(automatically_generate_personalized_destiny())">Your destiny awaits</button>
 
   <button onclick="he_loves_me()">He loves me :)</button>
   <button onclick="he_loves_me_not()">He loves me not :(</button>
