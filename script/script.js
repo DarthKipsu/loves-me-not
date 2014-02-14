@@ -13,15 +13,20 @@ function createPetals(amount) {
 	};
 	flower.style.display = 'block';
 	document.body.addEventListener('drop', dropPetal);
+  petalCount = amount;
 };
 
-var dragCount = 2;
+var dragCount = 0;
 
 function dragPetal(event) {
 	dragCount += 1;
 	event.dataTransfer.effectAllowed = 'copy';
 	if (dragCount % 2 == 0) {
-		he_loves_me_not();
+    if (dragCount == petalCount) {
+      he_loves_me_not_end(); 
+    } else {
+      he_loves_me_not();
+    }
 		console.log('loves me not')
 	} else {
 		he_loves_me();
